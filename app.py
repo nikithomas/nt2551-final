@@ -18,7 +18,7 @@ def main():
 
 @app.route("/assignments")
 def assignments():
-    return render_template("assignmets.html")
+    return render_template("assignments.html")
 
 @app.route("/classes")
 def classes():
